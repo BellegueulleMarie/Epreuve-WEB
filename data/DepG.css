@@ -1,0 +1,99 @@
+/*importer un police d'écriture*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+/* On fait en sorte que chaque élément contienne sa marge interne avec box-sizing et on retire les traits qui sont par défaut sur les liens */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  padding: 0;
+  list-style: none;
+  font-family:"Poppins";
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/aa/35/22/aa35223e62cc5352aad4921da670785c.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(175, 211, 202); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(65, 147, 149); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  }
+
+/* On modernise notre balise de navigation avec une petite ombre. On mets tous les éléments du menu les uns bien à côté des autres avec flexbox (display: flex) */
+.onglet {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: auto;
+  position: relative;
+}
+
+/* On stylise chaque élément */
+.nav {
+  color: #83818c;
+  padding: 20px;
+  margin: 0 6px;
+  position: relative;
+}
+/* Avec les dernières nouveautés de CSS, on peut changer les propriétés des éléments selon des conditions avec not */
+.nav:not(.selected):hover:before {
+  bottom: 0;
+}
+.nav:not(.selected):hover {
+  color: #333;
+}
+
+
+
+/* Stylisons notre indicateur */
+.nav-id {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  transition: .4s;
+  border-radius: 8px 8px 0 0;
+}
+/*Header*/
+header{
+  height: 80px;
+  width: 100%;
+  top:0;
+  left:0;
+  position: absolute;
+}
+header .container{
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+header .container .onglet{
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+
+}
+header .container ul{
+ margin-top: auto;
+  display:flex;
+}
+.logo img{
+  margin-top: -10px;
+  width: 120px;
+  height: 120px;
+}

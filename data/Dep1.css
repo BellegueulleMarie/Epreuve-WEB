@@ -1,0 +1,52 @@
+/*importer un police d'écriture*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+/* On fait en sorte que chaque élément contienne sa marge interne avec box-sizing et on retire les traits qui sont par défaut sur les liens */
+
+/*-------Sec1------*/
+
+.sec1{
+  height: 80vh;
+  width: 100%;
+}
+.sec1 .container{
+  width: 1000px;
+  height: 500px;
+  margin:0 auto;
+  margin-left:120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec1 h1{
+  color: rgb(33, 79, 70);
+  font-size: 4em;
+  font-family: "Madimi One", sans-serif;
+}
+/*----SECTION2-----*/
+.sec2 {
+  height: 100vh;
+}
+
+.sec2 .container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.sec2 .title{
+  width:100%;
+  text-align: center;
+  font-size: 2em;
+}
+.haut, .bas{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+}
+.bas{
+  margin-top:-50px;
+}
+.sec2 h2{
+  font-size: 2em;
+}
