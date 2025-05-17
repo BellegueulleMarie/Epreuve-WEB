@@ -10,10 +10,11 @@
   padding: 0;
   list-style: none;
   font-family:"Poppins";
+  color : white;
 }
 body{
-  background-image: url(https://i.pinimg.com/originals/aa/35/22/aa35223e62cc5352aad4921da670785c.png);
-  background-repeat:no-repeat;
+  background-image: url(Image/fond.png);
+  background-repeat:repeat;
   background-size:cover;
 }
 body::-webkit-scrollbar {
@@ -93,7 +94,7 @@ header .container ul{
   display:flex;
 }
 .logo img{
-  margin-top: -10px;
-  width: 120px;
-  height: 120px;
+  margin-top: 0px;
+  width: 100px;
+  height: 100px;
 }
