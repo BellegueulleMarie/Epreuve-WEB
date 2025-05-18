@@ -6,6 +6,7 @@
 
 /*-------Sec1------*/
 
+
 .sec1{
   height: 80vh;
   width: 100%;
@@ -93,4 +94,44 @@ strong {
 
 #sec3{
   margin-top: 500px ;
+}
+
+#monstres {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#monstres h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+}
+
+.monstre {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.monstre:hover {
+  background: #e1f0ff;
+}
+
+.monstre h3 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+.monstre p {
+  margin: 8px 0 0;
+  line-height: 1.4;
+  color: #555;
 }
