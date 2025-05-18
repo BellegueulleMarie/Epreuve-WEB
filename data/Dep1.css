@@ -45,8 +45,52 @@
   text-align: justify;
 }
 .bas{
-  margin-top:-50px;
+  margin-top: 50px;
 }
 .sec2 h2{
   font-size: 2em;
+}
+#pierre{
+  height: 300px;
+  width: 300px;
+  margin-right: 1em;
+  border-radius: 20%;
+}
+#arbre{
+  width: 300px;  
+  height: 300px;
+  
+}
+.image-fondu {
+  -webkit-mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(ellipse closest-side, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold; /* par défaut */
+}
+
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px; /* même largeur que la carte */
+  height: 600px; /* même hauteur que la carte */
+  z-index: 9999; /* pour être sûr que ça soit au-dessus */
+}
+
+#sec3{
+  margin-top: 500px ;
 }
